@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:login/pages/Home.dart';
 import 'package:login/pages/Loading.dart';
 import 'package:login/services/AuthService.dart';
+import './Register.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -25,6 +26,7 @@ class _LoginPageState extends State<LoginPage> {
         title: Text("Login"),
         centerTitle: true,
         actions: <Widget>[
+          //logout button
           FlatButton.icon(
             icon: Icon(Icons.person),
             label: Text('Logout'),
@@ -83,6 +85,7 @@ class _LoginPageState extends State<LoginPage> {
               Padding(
                 padding: EdgeInsets.only(top: 25),
               ),
+              //Login button and verified by firebase info.
               new RaisedButton(
                 onPressed: () async {
                   if(_formKey.currentState.validate()){
@@ -103,6 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                   borderSide: BorderSide(color: Colors.black),
                 )
               ),
+              //register button to create a new user.
               new RaisedButton(
                 color: Colors.blue,
                 shape: OutlineInputBorder(
@@ -110,8 +114,11 @@ class _LoginPageState extends State<LoginPage> {
                   borderRadius: BorderRadius.circular(50),
                 ),
                 child: Text('Register'),
-                onPressed: (){},
+                onPressed: (){
+                  Navigator.of(context).push(new MaterialPageRoute(builder: (BuildContext context) => RegisterForm()));
+                },
               ),
+              //forgot password TODO
               new RaisedButton(
                 color: Colors.blue,
                 shape: OutlineInputBorder(
@@ -119,8 +126,10 @@ class _LoginPageState extends State<LoginPage> {
                   borderRadius: BorderRadius.circular(50),
                 ),
                 child: Text('Forgot password'),
-                onPressed: (){},
+                onPressed: (){//todo
+                },
               ),
+              //Sign in Anonymously.
               new RaisedButton(
                 color: Colors.blue,
                 shape: OutlineInputBorder(

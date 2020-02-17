@@ -26,6 +26,7 @@ class _LandingPageState extends State<LandingPage> {
             new Container(
               alignment: Alignment.topRight,
               padding: const EdgeInsets.fromLTRB(0, 45, 10, 0),
+              // skip button.
               child: OutlineButton(
                 child: new Text(
                   'skip',
@@ -49,7 +50,7 @@ class _LandingPageState extends State<LandingPage> {
     super.initState();
     countDown();
   }
-
+  //let the landing page(Ads) exist for 10 sec then jump to loginpage aumatically. 
   void countDown(){
     var _duration = new Duration(seconds: 10);
     new Future.delayed(_duration,go2LoginPage);

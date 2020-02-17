@@ -1,6 +1,7 @@
 # login
 
-A new Flutter project.
+A new Flutter project, made up by a landing page with 10 sec animation, then jump to a login page automatically. 
+User details connected to the firebase. 
 
 ## Getting Started
 
