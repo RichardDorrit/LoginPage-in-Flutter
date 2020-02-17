@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "513913074065",
+    "firebase_url": "https://practice-b778a.firebaseio.com",
+    "project_id": "practice-b778a",
+    "storage_bucket": "practice-b778a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513913074065:android:9ef647c400036c9bf32a30",
+        "android_client_info": {
+          "package_name": "com.richard.practice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513913074065-7qb3nm867pq19qqdkcr3hvh5jois3ou0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJhhYGHngL8aE51cxYQc8ETr1KXaSNHI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513913074065-7qb3nm867pq19qqdkcr3hvh5jois3ou0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513913074065:android:bf314db6777a7a5df32a30",
+        "android_client_info": {
+          "package_name": "richard.practice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513913074065-7qb3nm867pq19qqdkcr3hvh5jois3ou0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJhhYGHngL8aE51cxYQc8ETr1KXaSNHI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513913074065-7qb3nm867pq19qqdkcr3hvh5jois3ou0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
